@@ -5,14 +5,11 @@
   @extend %letter-spacing;
   @extend %box-shadow;
 
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 10px;
   left: 0;
   z-index: $z-999;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: $header-height;
   width: 100%;
   padding: {
@@ -22,26 +19,32 @@
 
   background-color: $color-white;
   border-bottom: $border;
+  font-family: $font-nav;
 
   @media (min-width: $mq-small) {
     padding: {
-      right: 2em;
-      left: 2em;
+      right: 0em;
+      left: 0em;
     }
   }
 
   &__title {
     @extend %font-header;
 
-    font-size: $font-xsmall;
+    font-size: $font-small;
     color: $color-black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__list {
     @extend %no-list-style;
 
+    margin-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     & > * {
       @extend .header__title;
@@ -57,6 +60,26 @@
       a {
         color: $color-black;
       }
+    }
+  }
+
+  &__results_container {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      border: 1px solid #ddd; 
+      margin-top: -1px; 
+      background-color: #fff; 
+      padding: 4px; 
+      text-decoration: none; 
+      color: black; 
+      display: block; 
+      &:hover {
+        background-color: #eee;
+      }
+      a { color: inherit; }
     }
   }
 }

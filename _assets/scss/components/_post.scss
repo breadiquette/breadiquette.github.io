@@ -11,6 +11,7 @@
     @extend %text-center;
 
     border-bottom: $border;
+    font-family: $font-title;
   }
 
   &__date {
@@ -19,7 +20,8 @@
     display: block;
     margin-top: 0.25em;
 
-    font-size: $font-xsmall;
+    font-size: $font-small;
+    font-family: $font-nav
   }
 
   &__img {

@@ -11,8 +11,10 @@
 //----------------------------------------------
 // Fonts
 //----------------------------------------------
-$font: "Roboto", sans-serif;
-$font-post: "Lora", serif;
+$font: "Trirong", serif;
+$font-post: "Trirong", serif;
+$font-nav: "Marcellus", serif;
+$font-title: "Josefin Slab", serif;
 
 //----------------------------------------------
 // Fonts: Lineheight
@@ -78,7 +80,7 @@ $max-width--xl: 81em;
 //----------------------------------------------
 // Misc
 //----------------------------------------------
-$header-height: 3em;
+$header-height: 15em;
 $border: 1px solid rgba($color-black, 0.1);
 
 $ease-cb-1: cubic-bezier(0.4, 0, 0.2, 1);

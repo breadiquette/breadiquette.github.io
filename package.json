@@ -28,7 +28,8 @@
   "dependencies": {
     "aos": "^2.3.4",
     "jquery": "^3.5.0",
-    "salvattore": "^1.0.9"
+    "salvattore": "^1.0.9",
+    "simple-jekyll-search": "^1.7.11"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
