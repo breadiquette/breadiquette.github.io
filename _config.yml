@@ -61,7 +61,6 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
-gems:
   - jekyll-tagslist
 compress_html:
   clippings: all
