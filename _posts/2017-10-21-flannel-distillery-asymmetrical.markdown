@@ -3,7 +3,7 @@ layout: post
 title: "That one time I made danishes"
 date: 2020-08-20
 description: 
-image: /assets/images/danish.jpeg
+image: /assets/images/bread2.jpeg
 author: Clara Stelow
 tags: 
   - Breakfast
@@ -15,7 +15,7 @@ Whatever cornhole single-origin coffee succulents selvage 3 wolf moon prism swag
 
 Hell of bicycle rights wolf intelligentsia sriracha 90's skateboard fashion axe 3 wolf moon meditation.
 
-![Placeholder](/assets/images/danish.jpeg)
+![Placeholder](/assets/images/bread2.jpeg)
 
 Jean shorts pour-over chicharrones woke. Kinfolk next level chia master cleanse. Messenger bag green juice tumeric trust fund pour-over vegan. Celiac kogi vinyl taiyaki shaman scenester plaid live-edge whatever tilde subway tile XOXO helvetica you probably haven't heard of them four dollar toast. Knausgaard franzen mumblecore normcore microdosing. Man bun pickled woke, offal twee craft beer vape tilde stumptown retro small batch butcher la croix photo booth. 
 
