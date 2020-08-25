@@ -1,1 +1,1 @@
-Sitemap: http://breadiquette.github.io/https://breadiquette.github.io/sitemap.xml
+Sitemap: http://breadiquette.github.io/sitemap.xml
