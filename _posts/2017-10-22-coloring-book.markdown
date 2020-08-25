@@ -15,7 +15,7 @@ YOLO cold-pressed cred activated charcoal pabst hexagon VHS cornhole brunch, tbh
 
 Hammock whatever paleo, crucifix affogato vice actually vape dreamcatcher franzen fixie hella tofu everyday carry. Keytar gluten-free VHS, wolf scenester swag roof party listicle. Bespoke pabst VHS prism, raclette neutra normcore brunch slow-carb tote bag artisan. Organic DIY venmo, af next level plaid fashion axe 90's activated charcoal.
 
-![Placeholder](/assets/images/bread2.jepg#full)
+![Placeholder](/assets/images/bread2.jpeg#full)
 
 Ramps master cleanse normcore affogato selvage, squid readymade craft beer listicle. Deep v coloring book four dollar toast, quinoa brooklyn echo park sartorial ethical irony keytar health goth activated charcoal yuccie af. Before they sold out pug humblebrag lomo, banjo food truck cray. 
 

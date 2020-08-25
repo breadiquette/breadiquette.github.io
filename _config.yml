@@ -76,5 +76,3 @@ exclude:
   - package.json
   - README.md
   - vendor
-
-theme: jekyll-theme-cayman
