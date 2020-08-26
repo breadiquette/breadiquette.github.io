@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "That one time I made danishes"
+title: "Sourdough Danishes"
 date: 2020-08-20
 description: 
 image: /assets/images/danish.jpeg
