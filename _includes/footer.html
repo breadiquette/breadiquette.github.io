@@ -13,6 +13,8 @@
 
     <div class="footer__container">
       
+      <div class="footer__container">
+      {% tags_list :threshold => 1, :sort_by => count, :order_by => desc, :limit => 5 %}
 
       {% include social.html %}
     </div>

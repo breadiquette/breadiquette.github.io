@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: ""
-baseurl: "https://breadiquette.github.io"
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 

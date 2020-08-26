@@ -1,5 +1,43 @@
+# Breadiquette: Bread Blog
+
+The process for creating a post is unfortunately longer and more tedious than I'd hoped. Silver lining: you can learn a little about how software/websites are developed locally and then deployed to the Internet!
+
+## One-time setup
+
+When you first start making posts, you'll have to set up some of the software necessary to make changes. 
+
+1. Install [Sublime Text](https://www.sublimetext.com/3). This is a text editor, necessary for editing text files. All of your blog posts will start as text files and be transformed into Internet-ready HTML files.
+2. Open the Terminal application on your Mac with <kbd>command</kbd> + <kbd>space</kbd>, typing "Terminal" and hitting enter. Alternately you can find it in your applications folder. The Terminal is the main way that we run code and interface with the operating system. Whenever we say "run X command", we mean open Terminal, type the command and hit enter.
+3. Install Xcode command-line tools. You can do this by running `xcode-select --install` in the Terminal. This comes with a lot of useful tools for software development. 
+3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). This is called a _version control system_. It helps us keep track of different versions of our files (much like the way you can see previous version of a document in Google Docs), and it also helps us publish our code to [Github](github.com/), where the website actually lives.
+4. Install [Ruby](https://www.ruby-lang.org/en/downloads/), a useful programming language for web development. The easiest way to do this is install [Homebrew](https://brew.sh/), then run the command `brew install ruby` in the Terminal. While you're at it, you'll want to install [Ruby Gems](https://rubygems.org/pages/download), which allows us to add extensions to Ruby.
+5. Install [Jekyll](https://jekyllrb.com/docs/installation/macos/) by following the steps at the link (mainly `gem install bundler jekyll && bundle install`). This is the way that we turn plain text files into websites! 
+6.  Install [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start/). The easiest way to do this is install [Node](https://nodejs.org/en/) and then running `npm install --global gulp-cli`.
+
+Next, you'll need to download the files from [Github](https://github.com/breadiquette/breadiquette.github.io).
+
+1. Configure Git to work with Github, following the steps in [this link](https://kbroman.org/github_tutorial/pages/first_time.html).
+2. Download the files by running the command `git clone <link> ~/Documents/` where `<link>` is found by clicking the "Code" drop-down in the top right corner of this page.
+3. Download some more files by running `cd ~/Documents/breadiquette.github.io && mkdir _site && git clone <link> ~/Documents/ && git checkout gh-pages` where the link is the same as in step 2.
+
+
+## Making a post
+
+1. Write your post! To do this, you'll open Sublime Text and write the post in Markdown. ([Cheatsheet here.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) Then you'll save the file into the `_posts` folder of the blog. The name of the file needs to be `YYYY-MM-DD-post-title-separated-by-dashes` where the post-title-separated-by-dashes can be any short title you'd like to include. You'll save any images will go into the `assets/images` folder. 
+2. Open the Terminal and run `cd ~/Documents/breadiquette.github.io`. This moves us to the correct file folder. 
+3. Run `gulp`. This turns the plain text files into Internet-ready files. Once the Terminal prints `Starting 'watch'...`, you can hit <kbd>control</kbd> + <kbd>c</kbd> to complete the process.
+4. IF you'd like to see how your web page looks without publishing, you can run `bundle exec jekyll serve` and then go to [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in your browser.
+5. To save your changes, run `git commit -am "<insert text>" && git push origin master` where `<insert text>` summarizes the changes you made.
+6. To publish your new site, run `cd _site && git commit -am "<insert text>" && git push origin gh-pages`. It will take a minute or two for the changes to be reflected on the site.
+
+
+You can edit the "About me" page using the same steps but instead editing the HTML file `about.html`. For a quick primer on HTML, check out this [Wired post](https://www.wired.com/2010/02/html_cheatsheet/).
+
+
+## Markdown reference
+
 # Barber
-Barber is a minimal blog theme built for Jekyll. The blog theme features a masonry grid, endless scrolling, and page transitions. 💈 Barber is also available for [Ghost](https://github.com/samesies/barber-ghost).
+This blog was created with Barber. Barber is a minimal blog theme built for Jekyll. The blog theme features a masonry grid, endless scrolling, and page transitions. 💈 Barber is also available for [Ghost](https://github.com/samesies/barber-ghost).
 
 ![Barber](https://raw.githubusercontent.com/samesies/barber-jekyll/master/barber.jpg "Barber")
 
@@ -153,79 +191,6 @@ Comments can be enabled on every blog post in a few steps steps. The first step 
 ### Deployment
 GitHub Pages [does not support]((https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/)) custom plugins. The tag list and tag pagination are built using custom plugins. There are several options to avoid any errors while deploying to production.
 * Run ````bundle exec jekyll build```` or ````npm run build```` and manually add the contents of the ```_site``` folder to the ```gh-pages``` branch.
-* Link the repository to [Netlify](https://www.netlify.com/). Netlify will then rebuild the theme every time a commit is pushed to the repo.
-* Finish setting up the [s3-website](https://github.com/klaemo/s3-website) package that is already included in the theme. This would deploy the theme to AWS S3 when ```npm run deploy``` is run.
 
-### Source Code
-The source code is broken down to make finding what you need as easy as possible. Almost everything runs through ````gulpfile.js````, so you will need to run ````npm install```` on your command line before doing any additional development. You can then run ````gulp```` or ````npm run gulp```` to compile everything.
-
-```
-.
-├── _assets
-|   ├── js
-|       ├── components
-|       ├── vendor
-|       ├── _inits.js
-|       └── app.js
-|   └── scss
-|       ├── base
-|       ├── components
-|       ├── fonts
-|       ├── regions
-|       ├── tools
-|       ├── utils
-|       ├── vendor
-|       └── app.scss
-├── _includes
-|   ├── contact.html
-|   ├── disqus.html
-|   ├── footer.html
-|   ├── formcarry.html
-|   ├── head.html
-|   ├── header.html
-|   ├── navigation.html
-|   ├── pagination.html
-|   ├── post-card.html
-|   ├── share.html
-|   ├── social.html
-|   └── subscribe_form.html
-├── _layouts
-|   ├── compress.html
-|   ├── default.html
-|   ├── page.html
-|   ├── post.html
-|   └── tag.html
-├── _plugins
-├── _posts
-├── _site
-├── assets
-|   ├── css
-|   ├── images
-|   ├── js
-├── .eslintrc
-├── .gitignore
-├── .stylelintrc
-├── 404.html
-├── _config.yml
-├── Gemfile
-├── Gemfile.lock
-├── gulpfile.js
-├── index.html
-├── package.json
-├── README.md
-├── style-guidle.html
-└── subscribe.html
-```
-
-The CSS is written in Sass. The JavaScript is written in ES6, so your code is up to date with the newest standards.
-
-### Donations
-Barber has been released for free. Similar themes cost around $29 on [ThemeForest](https://themeforest.net/category/static-site-generators/jekyll). Any donations would be greatly appreciated after the work that went into releasing Barber.
-
-* PayPal – <https://www.paypal.me/samesies>
-* Bitcoin – 1PSzNmcfAFJY1PtBK5u9R5bTGfF7KAuLcq
-* Ethereum – 0x392F7116e4171F1D740397B6000EadD2e4bb9670
-* Litecoin – LSH9AnjcUTV5T7PUxXQuxPqb9W5aSR9GEP
-
-### Support
-Email <okay@samesies.io> if you need any additional support with Barber.
+### Running locally
+Almost everything runs through ````gulpfile.js````, so you will need to run ````npm install```` on your command line before doing any additional development. You can then run ````gulp```` or ````npm run gulp```` to compile everything.
