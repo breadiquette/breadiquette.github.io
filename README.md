@@ -7,7 +7,7 @@ The process for creating a post is unfortunately longer and more tedious than I'
 When you first start making posts, you'll have to set up some of the software necessary to make changes. 
 
 1. Install [Sublime Text](https://www.sublimetext.com/3). This is a text editor, necessary for editing text files. All of your blog posts will start as text files and be transformed into Internet-ready HTML files.
-2. Open the Terminal application on your Mac with <kbd>command</kbd> + <kbd>space</kbd>, typing "Terminal" and hitting enter. Alternately you can find it in your applications folder. The Terminal is the main way that we run code and interface with the operating system. Whenever we say "run X command", we mean open Terminal, type the command and hit enter.
+2. Open the Terminal application on your Mac with <kbd>command</kbd> + <kbd>space</kbd>, type "Terminal" and hitting enter. Alternately you can find it in your applications folder. The Terminal is the main way that we run code and interface with the operating system. Whenever we say "run X command", we mean open Terminal, type the command and hit enter.
 3. Install Xcode command-line tools. You can do this by running `xcode-select --install` in the Terminal. This comes with a lot of useful tools for software development. 
 3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). This is called a _version control system_. It helps us keep track of different versions of our files (much like the way you can see previous version of a document in Google Docs), and it also helps us publish our code to [Github](github.com/), where the website actually lives.
 4. Install [Ruby](https://www.ruby-lang.org/en/downloads/), a useful programming language for web development. The easiest way to do this is install [Homebrew](https://brew.sh/), then run the command `brew install ruby` in the Terminal. While you're at it, you'll want to install [Ruby Gems](https://rubygems.org/pages/download), which allows us to add extensions to Ruby.
@@ -23,12 +23,13 @@ Next, you'll need to download the files from [Github](https://github.com/breadiq
 
 ## Making a post
 
-1. Write your post! To do this, you'll open Sublime Text and write the post in Markdown. ([Cheatsheet here.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) Then you'll save the file into the `_posts` folder of the blog. The name of the file needs to be `YYYY-MM-DD-post-title-separated-by-dashes` where the post-title-separated-by-dashes can be any short title you'd like to include. You'll save any images will go into the `assets/images` folder. 
+1. Write your post! To do this, you'll open Sublime Text and write the post in Markdown. ([Guide here.](https://jekyllrb.com/docs/posts/)) You can also include a title, author and tags in the [front matter](https://jekyllrb.com/docs/front-matter/) of the post; you can follow the pattern in the first few articles. Then you'll save the file into the `_posts` folder of the `breadiquette.github.io` folder in your `Documents`. The name of the file needs to be `YYYY-MM-DD-post-title-separated-by-dashes.md` where the post-title-separated-by-dashes can be any short title you'd like to include. You'll save any images will go into the `assets/images` folder. 
 2. Open the Terminal and run `cd ~/Documents/breadiquette.github.io`. This moves us to the correct file folder. 
 3. Run `gulp`. This turns the plain text files into Internet-ready files. Once the Terminal prints `Starting 'watch'...`, you can hit <kbd>control</kbd> + <kbd>c</kbd> to complete the process.
 4. IF you'd like to see how your web page looks without publishing, you can run `bundle exec jekyll serve` and then go to [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in your browser.
-5. To save your changes, run `git commit -am "<insert text>" && git push origin master` where `<insert text>` summarizes the changes you made.
-6. To publish your new site, run `cd _site && git commit -am "<insert text>" && git push origin gh-pages`. It will take a minute or two for the changes to be reflected on the site.
+5. When you are done making changes locally, you can run `JEKYLL_ENV=production bundle exec jekyll build` to build the finished version.
+5. To save your changes, run `git add . && git commit -m "<insert text>" && git push origin master` where `<insert text>` summarizes the changes you made.
+6. To publish your new site, run `cd _site && git add . && git commit -am "<insert text>" && git push origin gh-pages`. It will take a minute or two for the changes to be reflected on the site.
 
 
 You can edit the "About me" page using the same steps but instead editing the HTML file `about.html`. For a quick primer on HTML, check out this [Wired post](https://www.wired.com/2010/02/html_cheatsheet/).
