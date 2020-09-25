@@ -1,27 +1,11 @@
 [
   
     {
-      "title"    : "Sourdough Danishes",
+      "title"    : "Gold Rush Sourdough",
       "category" : "",
-      "tags"     : "Breakfast, Sourdough",
-      "url"      : "/2020/08/20/flannel-distillery-asymmetrical/",
-      "date"     : "2020-08-20 00:00:00 -0400"
-    } ,
-  
-    {
-      "title"    : "Butterfly Pea Bread",
-      "category" : "",
-      "tags"     : "Sourdough, Bread",
-      "url"      : "/2020/08/19/coloring-book/",
-      "date"     : "2020-08-19 00:00:00 -0400"
-    } ,
-  
-    {
-      "title"    : "Geode Cake",
-      "category" : "",
-      "tags"     : "Desserts",
-      "url"      : "/2020/08/18/polaroid-williamsburg/",
-      "date"     : "2020-08-18 00:00:00 -0400"
+      "tags"     : "Sourdough, Bread, Chocolate",
+      "url"      : "/2020/09/25/Gold-Rush/",
+      "date"     : "2020-09-25 00:00:00 -0500"
     } 
   
 ]
