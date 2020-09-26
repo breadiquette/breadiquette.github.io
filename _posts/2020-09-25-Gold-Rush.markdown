@@ -9,6 +9,8 @@ tags:
   - Sourdough
   - Bread
   - Chocolate
+  - Vegan
+  - Oil Free
 ---
 Having surmounted the initial difficulties of making sourdough (getting my loaves to rise, timing, baking by feel rather than by measuring), I found myself faced with another set of challenges altogether: flavored breads and inclusions.
 
