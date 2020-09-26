@@ -53,7 +53,7 @@ Now, onto the recipe!
 * 1 cup oats, ground into oat flour in a blender or food processor
 * 1/3 cup sourdough starter discard
 * 1/3 cup all purpose flour
-* 3 tbps. applesauce
+* 3 tbsp. applesauce
 * 1/4 tsp. salt
 * 1/2 tsp. vanilla
 * 3 tsp. cinnamon
