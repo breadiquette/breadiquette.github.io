@@ -53,6 +53,7 @@ Now, onto the recipe!
 * 1 cup oats, ground into oat flour in a blender or food processor
 * 1/3 cup sourdough starter discard
 * 1/3 cup all purpose flour
+* 3 tbps. applesauce
 * 1/4 tsp. salt
 * 1/2 tsp. vanilla
 * 3 tsp. cinnamon
@@ -60,7 +61,7 @@ Now, onto the recipe!
 
 ### Instructions
 
-Using your hands or a stand mixer, mix together the ingredients, reserving 2.5 tsp. cinnamon and 1/4 cup sugar for the topping. Once the mixture forms a dough similar to pie crust, form it into a ball and cover with plastic wrap. Refrigerate for thirty minutes.
+Using your hands or a stand mixer, mix together all the ingredients, reserving 2.5 tsp. cinnamon and 1/4 cup sugar for the topping. Once the mixture forms a dough similar to pie crust, form it into a ball and cover with plastic wrap. Refrigerate for thirty minutes.
 
 Preheat the oven to 375 farenheit. Place the dough between two sheets of parchment paper and roll it as thin as possible, ideally only a few millimeters thick. In a small bowl, mix together the reserved cinnamon and sugar, and sprinkle it over both sides of the dough. Line a baking sheet with one of the sheets of parchment, and cut the dough into 1x1 cm squares. Bake on parchment for 9-12 minutes in preheated oven. Serve cereal with milk or enjoy it on its own! 
 
