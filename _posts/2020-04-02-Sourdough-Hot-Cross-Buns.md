@@ -21,7 +21,7 @@ Now that I live on my own, I sometimes find it hard to rekindle the same childli
 
 ### A little background
 
-As many are aware, these spiced buns are the subject of a well-known song used to teach preschoolers the rudiments of recording-playing. They conjure up images of school-aged children, who, noisemakers in hand, march around the house, wheezing out the same three notes over and over again. Their melodies, however, do a great injustice to the history and delicasy of hot cross buns.
+As many are aware, these spiced buns are the subject of a well-known song used to teach preschoolers the rudiments of recorder-playing. They conjure up images of school-aged children, who, noisemakers in hand, march around the house, wheezing out the same three notes over and over again. Their melodies, however, do a great injustice to the history and delicasy of hot cross buns.
 
 Christians have been consuming Lenten buns for millenia, particularly on Good Friday, when we recall the crucifixion of Jesus Christ. Though Good Friday is a time of fasting, hot cross buns have historically been consumed for a light meal midday. The traditional spices recall those used to embalm the dead in Ancient Rome, and the crosses which adorn each bun signify Jesus' death on the cross. Interestingly, there are two different approaches to making the cross on the buns: one can either frost them after, or bake them with a paste of flour and water. I have chosen the latter option, as frosted crosses are a more recent addition to the tradition and feel substantially less Lenten. 
 
